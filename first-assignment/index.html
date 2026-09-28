@@ -1,26 +1,126 @@
-<!DOCTYPE html>
 
 <html lang="en">
+  <head>
+    <title>
+      Cassie's awesomesauce webpage!
+    </title>
+  <meta charset="utf-8" />
+  <meta name="description" content="This is a student site that isnt meant to be visited by other people! Why are you here?" />
+  <meta name="author" content="Cassie R." />
+  <meta name="viewport" content="width=device-width" />
+  </head>
+ 
+  <body>
+    <h1 id="2">Prototype HTML Document Example</h1>
+    <nav>
+      <ul>
+        <li> <a href="https://youtu.be/OHAjc-ayhus?si=SPvj-yOPxPW6NYad" target="_blank">Absolute Link</a></li>
+        <li><a href="~/.config/niri/config.kdl" target="_blank">Relative Link</a></li>
+        <li><a href="#1">Anchor Link</a></li>
+        <li><a href="mailto:cassie.workschool@gmail.com" download>Email Link</a></li>
+      </ul>
+    </nav>
+    
+    <!--form-->
+    <form action="" method="">
+      <fieldset>
+        <legend>AWESOME info</legend>
+        <label for="epic name">epic name:<input type="text" id="ename" name="ename"/>
+          
+          <label for="address">Address:</label>
+          <textarea id="address" name="address"> </textarea>
+          <label for="color">most AWESOME color?:</label>
+          <select id="color" name="color">
+            <option selected>None</option>
+            <option value="r">Red</option>
+            <option value="g">Green</option>
+            <option value>Blue</option>
+          </select>
+          <input type="submit" />
+          
+      </fieldset>
 
-<head>
-  <meta charset="UTF-8">
+      
+    </form>
+    
+    
+    <h2>Properly Marking up an HTML Document</h2>
+    
+    <img src="https://thomaswallace.net/wp-content/uploads/2018/02/ualr.png" alt="The UA Little Rock Logo on a maroon background.">
+    
+    
+  <p>This is a paragraph. Often times designers will use "Dummy Text" as a placeholder in a document. An example of that text follows...<em>Lorem ipsum dolor</em> sit amet, consectetuer adipiscing elit. Praesent volutpat velit sed massa. In volutpat eros sagittis ipsum. Donec fringilla risus nec nunc. Fusce tellus arcu, blandit quis, posuere in, porta vitae, lorem. Quisque feugiat arcu eget sapien. </p>
+    
+    <p> Reference </p>
+    <ul>
+      <li><a href="#3"> Bottom </a></li>
+    </ul>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <p>This is another paragraph Aenean eget ipsum id arcu bibendum porttitor. Vivamus id lectus non eros eleifend aliquet. <strong>Cum sociis natoque penatibus et magnis</strong> dis parturient montes, nascetur ridiculus mus. Mauris volutpat. Integer dignissim consequat enim. Praesent velit felis, tempus malesuada, sagittis et, condimentum in, ante. Nulla lobortis, ligula sit amet laoreet sollicitudin, sem arcu lacinia tellus, id lobortis arcu urna tincidunt turpis. </p>
 
-  <meta name="description" content="Assignment for Web Technologies">
+    <h3> This is a Subsection of the Primary Content</h3>
 
-  <meta name="author" content="Cassie R.">
+    
+ 
 
-  <title>IFSC 11003 | Cassie</title>
-</head>
+  <p>This is a paragraph. Often times designers will use "Dummy Text" as a placeholder in a document. An example of that text follows...Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent volutpat velit sed massa. In volutpat eros sagittis ipsum. Donec fringilla risus nec nunc. Fusce tellus arcu, blandit quis, posuere in, porta vitae, lorem. Quisque feugiat arcu eget sapien. </p>
 
-<body>
-<h1>Placeholder</h1>
-<p> 
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias temporibus neque culpa velit, itaque ad eveniet repellat, sapiente,
-    reiciendis ut tempore illum labore! Voluptatum maxime voluptas dignissimos ex? Rem eius inventore magni facilis quibusdam! Amet ex
-    sed officiis modi nihil mollitia consequuntur, reiciendis repellendus maxime impedit fugiat sunt labore magni.
-</p>
-</body>
+<p>This is another paragraph Aenean eget ipsum id arcu bibendum porttitor. Vivamus id lectus non eros eleifend aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris volutpat. Integer dignissim consequat enim. Praesent velit felis, tempus malesuada, sagittis et, condimentum in, ante. Nulla lobortis, ligula sit amet laoreet sollicitudin, sem arcu lacinia tellus, id lobortis arcu urna tincidunt turpis. </p>
 
+<ol> 
+  <li>Instruction 1</li>
+
+  <li>Instruction 2</li>
+
+  <li id="1">Instruction 3</li>
+</ol>
+
+    <ul>
+      <li>Pony</li>
+
+      <li>Turtle</li>
+
+      <li>Dog</li>
+
+      <li>Cat</li>
+    </ul>
+
+** This is an example of how we should mark up a term and its description(s) **
+<dl>
+  <dt>Term</dt>
+  <dd>Description 1</dd>
+  <dd>Description 2 </dd>
+  <dt>Term 2</dt>
+  <dd>Description 3</dd>
+  <dd>Description 4</dd>
+  <dd>Description 5</dd>
+</dl>
+    
+    <h4>This is a Subsection of Subsection I</h4>
+
+<table border="1">
+  <tr>
+    <th scope = "col">ITEM</th>
+    <th scope = "col">QUANTITY</th>
+    <th scope = "col">CAT</th>
+  </tr>
+  <tr><td>Calico</td><<td>3</td><td>Meow</td>/tr>
+</table>
+
+<blockquote> This is a Quote. Content precedes design. Design in the absence of content is not design, it's decoration. <cite>From Designing with Web Standards by Jeffery Zeldman.</cite>
+</blockquote>
+
+
+
+    <h3>This is a Subsection of the Primary Content</h3>
+
+
+
+<p>This is a paragraph. Often times designers will use "Dummy Text" as a placeholder in a document. An example of that text follows...Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Praesent volutpat velit sed massa. In volutpat eros sagittis ipsum. Donec fringilla risus nec nunc. Fusce tellus arcu, blandit quis, posuere in, porta vitae, lorem. Quisque feugiat arcu eget sapien. </p>
+
+<p id="3">This is another paragraph Aenean eget ipsum id arcu bibendum porttitor. Vivamus id lectus non eros eleifend aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris volutpat. Integer dignissim consequat enim. Praesent velit felis, tempus malesuada, sagittis et, condimentum in, ante. Nulla lobortis, ligula sit amet laoreet sollicitudin, sem arcu lacinia tellus, id lobortis arcu urna tincidunt turpis.</p>
+
+    <p><a href="#top">Back to top of page </a></p>
+
+  </body>
 </html>
